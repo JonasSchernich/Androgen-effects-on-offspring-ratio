@@ -41,8 +41,9 @@ sons <- c(
   1, 1, 2, 1, 2, 0, 2, 2, 0, 0, 3, 1, 2, 2, 1, 0, 0, 0, 1
 )
 roids_sex_ratio_df <- data.frame(names = names_vector, daughters = daughters, sons = sons)
-roids_sex_ratio_df_1 <- roids_sex_ratio_df[-1]
 roids_sex_ratio_df <- na.omit(roids_sex_ratio_df)
+roids_sex_ratio_df_1 <- roids_sex_ratio_df[-1]
+
 
 
 celebrities <- c("Brad Pitt", "David Beckham", "Will Smith", "Tom Cruise", 
